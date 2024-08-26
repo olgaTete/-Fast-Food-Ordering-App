@@ -1,0 +1,28 @@
+.App {
+  text-align: center;
+}
+
+body {
+  padding: 20px;
+}
+
+header h1 {
+
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.itemsize {
+  width: 100px;
+}
