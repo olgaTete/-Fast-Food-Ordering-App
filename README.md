@@ -7,4 +7,6 @@ Functionalities:
 2. Implement Add to Order Functionality
 3. Implement Quantity Management
 4. Implement Dark/Light Theme Toggle
+
+
 ![image](https://github.com/user-attachments/assets/678a54fc-29de-4b96-9440-bad7562b8ca3)
