@@ -17,7 +17,7 @@ const OrderSummary = ({ order, updateQuantity, totalPrice }) => {
                   <button
                     className="btn btn-sm btn-secondary"
                     onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                    disabled={item.quantity === 1}
+                    disabled={item.quantity === 0}
                     style={{
                         backgroundColor: 'red',
                       }}
