@@ -42,6 +42,11 @@ const OrderSummary = ({ order, updateQuantity, totalPrice }) => {
         )}
         <hr />
        <h5>Total: SEK {totalPrice.toFixed(2)}</h5>
+           {order.length > 0 && (
+          <button className="btn btn-success" onClick={() => placeOrder(order)}>
+            Place Order
+          </button>
+        )}
       </div>
     </div>
   );
